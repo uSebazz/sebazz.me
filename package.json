@@ -1,24 +1,35 @@
 {
-  "name": "sebazz.me",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.7.8",
-    "@types/react": "18.0.17",
-    "@types/react-dom": "18.0.6",
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5",
-    "typescript": "4.7.4"
-  }
+	"name": "sebazz.me",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@chakra-ui/icons": "^2.0.8",
+		"@chakra-ui/react": "^2.2.8",
+		"@chakra-ui/theme-tools": "^2.0.9",
+		"@emotion/react": "^11",
+		"@emotion/styled": "^11",
+		"@heroicons/react": "^1.0.6",
+		"framer-motion": "^6",
+		"next": "12.2.5",
+		"phosphor-react": "^1.4.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-palette": "^1.0.2"
+	},
+	"devDependencies": {
+		"@sapphire/prettier-config": "^1.4.4",
+		"@types/node": "18.7.8",
+		"@types/react": "18.0.17",
+		"@types/react-dom": "18.0.6",
+		"eslint": "8.22.0",
+		"eslint-config-next": "12.2.5",
+		"typescript": "4.7.4"
+	},
+	"prettier": "@sapphire/prettier-config"
 }
