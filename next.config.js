@@ -4,9 +4,9 @@
 const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
-    //compiler: {
-    //  styledComponents: true,
-    //}
+    images: {
+        domains: ['skillicons.dev'],
+    }
 }
 
 module.exports = nextConfig
