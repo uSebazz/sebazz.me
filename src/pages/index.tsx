@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 				<VStack spacing={12}>
 					<Section>
 						<VStack spacing={4} align="start" fontSize="2xl">
-							<Heading size="xl">
+							<Heading size="xl" fontWeight="bold">
 								Hey there, I&apos;m{' '}
 								<Text as="span" color={useColorModeValue('neutralG.600', 'neutralD.600')}>
 									Sebazz
