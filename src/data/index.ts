@@ -28,3 +28,5 @@ export type Project = {
     github?: string;
     type: 'bot' | 'website';
 };
+
+export const DISCORD_ID = '899339781132124220';

@@ -62,13 +62,10 @@ const Nav = () => {
 	return (
 		<Box
 			bg={useColorModeValue('white', 'neutralG.900')}
-			backdropFilter="auto"
 			display={{ base: 'none', md: 'block' }}
 			position="fixed"
 			w="100%"
 			zIndex={99}
-			borderBottomWidth="2px"
-			borderBottomColor={useColorModeValue('neutralG.300', 'neutralD.500')}
 			shadow="0 0 10px 0 rgba(0,0,0, 0.035);"
 		>
 			<Container>
@@ -97,7 +94,7 @@ const MenuForMoreOptions = ({ isOpen, onOpen, onClose }: UseDisclosureProps) => 
 			<MenuButton
 				bg={useColorModeValue('neutralG.300', 'neutralG.800')}
 				_hover={{
-					bg: useColorModeValue('neutralG.500', 'neutralD.700')
+					bg: useColorModeValue('neutralG.500', 'neutralG.700')
 				}}
 				onMouseEnter={onOpen}
 				onMouseLeave={onClose}

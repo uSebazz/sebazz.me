@@ -19,6 +19,6 @@
       "@/*": ["src/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tests/Spotify.test.js"],
   "exclude": ["node_modules"]
 }

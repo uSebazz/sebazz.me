@@ -16,17 +16,22 @@
 		"@emotion/styled": "^11",
 		"@heroicons/react": "^1.0.6",
 		"framer-motion": "^6",
+		"moment": "^2.29.4",
 		"next": "12.2.5",
 		"phosphor-react": "^1.4.1",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"react-palette": "^1.0.2"
+		"react-icons": "^4.4.0",
+		"react-palette": "^1.0.2",
+		"request": "^2.88.2",
+		"use-lanyard": "^1.2.0"
 	},
 	"devDependencies": {
 		"@sapphire/prettier-config": "^1.4.4",
 		"@types/node": "18.7.8",
 		"@types/react": "18.0.17",
 		"@types/react-dom": "18.0.6",
+		"@types/request": "^2.48.8",
 		"eslint": "8.22.0",
 		"eslint-config-next": "12.2.5",
 		"typescript": "4.7.4"
