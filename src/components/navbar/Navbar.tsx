@@ -61,14 +61,12 @@ const Nav = () => {
 
 	return (
 		<Box
-			bg={useColorModeValue('white', 'neutralG.900')}
+			bg={useColorModeValue('white', 'neutralG.800')}
 			backdropFilter="auto"
 			display={{ base: 'none', md: 'block' }}
 			position="fixed"
 			w="100%"
 			zIndex={99}
-			borderBottomWidth="2px"
-			borderBottomColor={useColorModeValue('neutralG.300', 'neutralD.500')}
 			shadow="0 0 10px 0 rgba(0,0,0, 0.035);"
 		>
 			<Container>
