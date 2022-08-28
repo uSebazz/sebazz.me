@@ -5,14 +5,14 @@ import { usePalette } from 'react-palette';
 
 const ProjectCard = ({ title, description, logo, link, type }: Props) => {
 	const { data } = usePalette(logo);
-    const colorTypes = {
-        bot: 'red',
-        website: 'green',
-        other: 'yellow'
-    }
+	const colorTypes = {
+		bot: 'red',
+		website: 'green',
+		other: 'yellow'
+	};
 
 	const getTypeColor = (type: string) => {
-		return colorTypes[type]
+		return colorTypes[type as keyof typeof colorTypes];
 	};
 
 	return (
