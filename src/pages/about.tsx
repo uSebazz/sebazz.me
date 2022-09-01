@@ -20,13 +20,12 @@ const About = () => {
 				</Section>
 				<Section>
 					<VStack align="stretch" spacing={4}>
-						<Heading as="h3" size="lg" color={useColorModeValue('neutralG.600', 'neutralD.600')}>
+						<Heading as="h1" size="lg" color={useColorModeValue('neutralG.600', 'neutralD.600')}>
 							Skills
 						</Heading>
 						<Image
+							alt="skills"
 							src="https://skillicons.dev/icons?i=js,ts,lua,html,css,vue,react,nextjs,express,tailwind,windicss,git,linux,mongodb,prisma"
-							alt="Skills"
-							width="100%"
 						/>
 					</VStack>
 				</Section>
