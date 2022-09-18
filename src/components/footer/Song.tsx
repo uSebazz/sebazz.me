@@ -12,7 +12,7 @@ const Song = () => {
 			<Flex direction="row" maxW="full" mx={{ base: 'auto', md: 5 }} alignItems="center">
 				<Icon color={useColorModeValue('neutralG.900', 'neutralD.600')} boxSize="1.4em" as={BsPauseFill} />
 				<chakra.p color={useColorModeValue('neutralG.800', 'neutralG.400')} fontSize="md" fontWeight="semibold">
-					I&apos;m not listening nothing rigth now.
+					I&apos;m listening nothing right now
 				</chakra.p>
 			</Flex>
 		);

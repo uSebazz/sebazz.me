@@ -1,6 +1,8 @@
 import PageTransition from '@/components/transitions/PageTransitions';
+import InterestTag from '@/components/utils/interest-tag';
 import Section from '@/components/utils/Section';
-import { Heading, Image, Text, useColorModeValue, VStack } from '@chakra-ui/react';
+import { interest } from '@/data';
+import { Heading, Image, Text, useColorModeValue, VStack, Wrap } from '@chakra-ui/react';
 
 const About = () => {
 	return (
@@ -27,6 +29,26 @@ const About = () => {
 							alt="skills"
 							src="https://skillicons.dev/icons?i=js,ts,lua,html,css,vue,react,nextjs,express,tailwind,windicss,git,linux,mongodb,prisma"
 						/>
+					</VStack>
+				</Section>
+				<Section>
+					<VStack align="stretch" spacing={4}>
+						<Heading as="h2">😁</Heading>
+						<Wrap>
+							{interest.like.map((el) => (
+								<InterestTag key={el} name={el} like />
+							))}
+						</Wrap>
+					</VStack>
+				</Section>
+				<Section>
+					<VStack align="stretch" spacing={4}>
+						<Heading as="h2">😡</Heading>
+						<Wrap>
+							{interest.dislike.map((el) => (
+								<InterestTag key={el} name={el} />
+							))}
+						</Wrap>
 					</VStack>
 				</Section>
 			</VStack>
