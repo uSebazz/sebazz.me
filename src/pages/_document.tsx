@@ -10,6 +10,7 @@ class MyDocument extends Document {
 		return (
 			<Html lang="en">
 				<Head>
+                    <script defer src="https://app.embed.im/snow.js"></script>
 					<link rel="icon" href="/rex.png" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" />
 					<style data-href="https://fonts.googleapis.com/css2?family=Inter&display=optional">
