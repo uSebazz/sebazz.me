@@ -29,7 +29,7 @@ const Home: NextPage = () => {
 									<Text as="span" color={useColorModeValue('neutralG.600', 'neutralD.600')}>
 										Sebazz
 									</Text>{' '}
-									Currently, I am 14 years old and I like to make websites and bots for people{' '}
+									Currently, I am 15 years old and I like to make websites and bots for people{' '}
 									<Text as="span" color="red">
 										❤️
 									</Text>
